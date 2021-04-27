@@ -1,0 +1,19 @@
+spring:
+  mvc:
+    view:
+      prefix: /
+      suffix: .jsp
+  servlet:
+    multipart:
+      max-file-size: 100MB
+      max-request-size: 500MB
+server:
+  port: 8081
+  tomcat:
+    connection-timeout: 180000
+#  thymeleaf:
+#    prefix: classpath:/templates/
+#    cache: false # 开发时关闭缓存,不然没法看到实时页面
+#    suffix: .jsp
+
+
